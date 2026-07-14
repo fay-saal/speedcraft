@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.so
+*.pyd
+*.c
+build/
+.speedcraft_cache/
+*_accelerated.py
+*.egg-info/
