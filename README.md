@@ -22,17 +22,16 @@
 
 <br>
 
-```
-$ speedcraft optimize slow_script.py
-
- Profiling slow_script.py ...
- Bottleneck: is_prime_count — 0.0019s cumulative
- Requesting Cython translation from LLM...
- Compiling generated Cython code...
- Running differential test (300 random trials)...
-✓ PASSED 300/300 trials — correctness verified.
-⚡ Speedup: 19.6x
-```
+```diff
++ $ speedcraft optimize slow_script.py
++ 
++  Profiling slow_script.py ...
++  Bottleneck: is_prime_count — 0.0019s cumulative
++  Requesting Cython translation from LLM...
++  Compiling generated Cython code...
++  Running differential test (300 random trials)...
++ ✓ PASSED 300/300 trials — correctness verified.
++ ⚡ Speedup: 19.6x
 
 <br>
 
