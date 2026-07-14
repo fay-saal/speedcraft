@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ SpeedCraft-AI
+#  SpeedCraft-AI
 
 ### The Auto-Cythonizer — turn slow Python into fast C, without writing a line of C.
 
