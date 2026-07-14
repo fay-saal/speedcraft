@@ -21,12 +21,10 @@
 </div>
 
 <br>
----
 
 
 ```diff
 + $ speedcraft optimize slow_script.py
-+ 
 +  Profiling slow_script.py ...
 +  Bottleneck: is_prime_count — 0.0019s cumulative
 +  Requesting Cython translation from LLM...
