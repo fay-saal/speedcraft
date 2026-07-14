@@ -32,7 +32,7 @@
 +  Running differential test (300 random trials)...
 + ✓ PASSED 300/300 trials — correctness verified.
 + ⚡ Speedup: 19.6x
-
+```
 <br>
 
 ## `> overview`
